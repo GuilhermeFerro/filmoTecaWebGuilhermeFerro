@@ -1,4 +1,4 @@
-package filmoteca;
+package filmeteca;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
@@ -12,6 +12,6 @@ public class MainController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Alo FilmotecaWebBruno!";
+        return "Alo FilmotecaWebGuilhermeFerro!";
     }
 }
